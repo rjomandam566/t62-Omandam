@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+/*
+    A Ball is spinning and creates 3000 revolutions per minutes. calculate the degrees it rotates in one second.
+*/
+
+int main()
+{
+    int minute = 60, rotation = 360, revPerMin = 3000, revPerSec, degreesPerSec; 
+    
+    cout << "A ball started spinning... " << endl;
+    cout << "\nThe ball creates " << revPerMin << " Revolutions per minute." << endl;
+    
+    //definitons
+    cout << "\n1 minute = " << minute << " seconds" << endl;
+    cout << "1 rotation = " << rotation << " degrees" <<endl;
+    
+    //calculation of revolution per second = revPerMin / 60 seconds
+    revPerSec = revPerMin / 60;
+    cout << "revolution per second = " << revPerSec << " revolutions/second" << endl;
+    
+    //answer
+    degreesPerSec = revPerSec * rotation;
+    cout << "\ndegrees per second = " << degreesPerSec << " degrees/sec" << endl;
+    
+    
+    return 0;
+}
