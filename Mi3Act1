@@ -30,16 +30,15 @@ void display()
 	//draw
 	glBegin(GL_TRIANGLES);
 
-	//trianlge 1
+	//triangle 1
 	glVertex2f(-7.0,2.0);
 	glVertex2f(-8.0,0.0);
 	glVertex2f(-6.0,0.0);
 	//triangle 2
-
 	glVertex2f(-6.0,0.0);
 	glVertex2f(-5.0,2.0);
 	glVertex2f(-4.0,0.0);
-	//trinagle 3
+	//triangle 3
 	glVertex2f(-3.0,2.0);
 	glVertex2f(-4.0,0.0);
 	glVertex2f(-2.0,0.0);
@@ -47,11 +46,11 @@ void display()
 	glVertex2f(-7.0,2.0);
 	glVertex2f(-6.0,4.0);
 	glVertex2f(-5.0,2.0);
-	//trianlge 5
+	//triangle 5
 	glVertex2f(-4.0,4.0);
 	glVertex2f(-5.0,2.0);
 	glVertex2f(-3.0,2.0);
-	//trianlge 6
+	//triangle 6
 	glVertex2f(-6.0,4.0);
 	glVertex2f(-5.0,6.0);
 	glVertex2f(-4.0,4.0);
