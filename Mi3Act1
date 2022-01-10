@@ -11,7 +11,7 @@ int main(int argc,char**argv)
 	glutInit(&argc,argv);
 	glutInitDisplayMode(GLUT_RGB);
 	glutInitWindowPosition(500,100);
-	glutInitWindowSize(300,300);
+	glutInitWindowSize(500,500);
 	glutCreateWindow("WINDOWS");
 	glutDisplayFunc(display);
 	glutReshapeFunc(reshape);
